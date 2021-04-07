@@ -75,3 +75,9 @@ alert(labrador.size[0]); //Affiche15
 labrador.size[0] = '14';
 labrador.age = '4';
 alert(labrador.size[0]); //Affiche14
+
+
+let number = 4, text = '4', result;
+result = number == text;
+alert(result); // Affiche « true » alors que « number » est un nombre et « text » une chaîne de caractères; 
+// result = number === text; alert(result) Affiche « false » car cet opérateur compare aussi les types des variables en plus de leurs valeurs
